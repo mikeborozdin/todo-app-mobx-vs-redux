@@ -17,7 +17,7 @@ const NewTodo = ({ addTodo }) => {
       <button
         onClick={() => addTodo(todo)}
         className='new-todo-button'>
-          Add a new todo
+        Add a new todo
         </button>
     </div>
   );

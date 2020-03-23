@@ -5,6 +5,7 @@ import './App.css';
 
 const App = () => (
   <div className='app'>
+    <h1 class="header">ToDo MobX</h1>
     <NewTodo />
     <Todos />
   </div>
