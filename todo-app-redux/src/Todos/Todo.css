@@ -1,0 +1,25 @@
+.list {
+  display: flex;
+  width: 660px;
+  height: 660px;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.todo {
+  width: 200px;
+  height: 200px;
+  background: #ffff99;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lucida Console', Monaco, monospace;
+  font-style: italic;
+  font-weight: bold;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
